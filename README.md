@@ -24,17 +24,17 @@ For me, these projects are less about writing code and more about learning; they
 Instead of just pinning repositories, I’m keeping a running log of my projects. Each entry includes a quick write-up of what I built, the specific tech stack, the direction I took with the project, and key learnings.
 And no, I'm not posting the code...yet.  
 
-### [Project TAP (Time and Place)](./path-to-your-doc/tap-writeup.md)
+### [Project TAP (Time and Place)](./ProjectTAP.md)
 * **The Experiment:** A mobile-first Progressive Web App (PWA) for location-aware task management. I wanted to solve a personal problem with this project, and took direct feedback from a small group of Beta users to test my ability to iterate and prove feature-value in an AI-driven product.
 * **Built In:** React + Vite using Antigravity IDE
 * **The Collaboration Manifest:** *High human guidance / AI as an architect.* I kept tight control over the product UX and user flow, leaning into an agentic IDE that used AI agents to handle the structural scaffolding and software development. 
-* [Read the project notes and what I learned →](./path-to-your-doc/tap-writeup.md)
+* [Read the project notes and what I learned →](./ProjectTAP.md)
 
-### [Lord of the Keys]
+### [Lord of the Keys](./Lord-of-the-Keys.md)
 * **The Experiment:** A simple platformer expansion inspired by a friend's use of Codex to build a spelling game for their student. Designed for learning typing skills in a fun Lord of the Rings inspired game.
 * **Built In:** HTML using Codex and Antigravity
 * **The Collaboration Manifest:** *Pair programming.* I used local execution and treated the AI agent as a specialized technical soundboard with a time limit of 8 hours, mapping out requirements and rapidly prototyping mechanics together in real-time.
-
+* [Read the project notes and what I learned →](./Lord-of-the-Keys.md)
 
 ### [Project Asgard]
 * **The Experiment:** Inspired by problems-worth-solving in my professional life (construction), I built a series of vibe-coded point solutions to test my one-shot prompting capabilities and gaps.
