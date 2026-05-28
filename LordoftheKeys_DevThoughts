@@ -1,0 +1,50 @@
+# Lord of the Keys: Interactive Game Development & One-Shotting Tests
+This document serves as an architectural overview and technical review of Lord of the Keys, a simple educational platformer designed to help elementary school students improve their typing.
+It outlines the product thinking (questionable), structural decisions, and technical learnings derived from taking on the challenge of building a simple platformer in HTML in under 8 hours of non-focused time.
+
+## 1. Context & Objective
+Lord of the Keys was built as a friendly challenge to myself; a buddy had also been playing around with agentic AI development who is also not a developer and had one-shotted a fairly good HTML-based spelling game for a kid using Codex.
+I thought that was a really fun experiment, and wanted to see if Gemini could do the same. 
+
+The objective of the Lord of the Keys is to provide a simple but deceptively-learning-centric game which captured the magic of early platforming games in a semi-recognizable context while still teaching valuable skills. 
+Inspired by the Lord of the Rings, the game consists of 8 levels based on different locations visited in the Lord of the Rings trilogy. 
+Users choose their proficiency with typing (Hobbits or Rangers) and then progress through the levels by typing the letters or words that appear on screen, navigating their characters through the level, and either avoiding or defeating LOTR-inspired enemies by typing words. 
+3 bosses at the end of 3 of the levels ensure difficulty progression and are fun for the users.
+
+Market research: none. I had access to 2 very willing testers (under 5 and under 10) and they had a lot of fun watching me try and fail at some of the workflows during the game.
+
+## 2. Architectural Underpinnings & AI Product Thinking
+I wanted very much to land the plane with a one-shot prompt, and probably could have gotten away with it if I'd either
+  - a) put an hour of research into the frontend before prompting, or
+  - b) accepted some of the questionable design choices of the first output
+
+ However, I was very eager to play the game (as were my testers) so I wound up doing a lot more single-threaded feature work and bug fixes than I'd expected.
+
+### Screenshots
+
+
+
+
+## 3. Gameplay Development
+- Although the HTML scaffolding was simple, I did struggle for the first few prompts finding a happy medium on direction to Flash 3.1 Pro...walked a line in the first few prompts between being too over-prescriptive on techniques I didn't know and too permissive.
+- Image use and generation - probably the area where I and the agents performed the worst. Gemini has some amazing image generation capabilities, but I absolutely could not get it to understand what I wanted it to do with the images it generated for gates, backgrounds, and enemies. Ultimately, I pivoted to an unexpected source - the Battle for Wesnoth. 
+- Wesnoth is an open-source 2D 4X game that I've played through and loved multiple times, and I was able to get the agents to borrow some of its character sprites for use in the game. I take no credit for those images, and if you haven't played the game yet I can't recommend it enough: https://www.wesnoth.org/
+- Audio was also a challenge, since my time limit didn't provide a lot of room for me to research, source, and downscale open-source audio that would fit the capabilities of the game. However, the modulations on the original sounds that Gemini 3.1 Pro Low worked up aren't terrible.
+
+## 4. Technical Learnings: Single-threaded AI Development
+- This felt a bit like XP; I was guiding a single AI agent through features and bug fixes sequentially and while that was easy to explain to my testers, it wasn't as efficient as if I would have run full AI orchestration.
+
+## 5. Key Learnings
+- Have fun! This little project was both fun to build and entertaining to unleash to my testers at the end of the cycle. They had fun with it and showed their friends.
+
+## 6. What's Next for Lord of the Keys
+- Naturally, an expanded universe. Star Chores for daily engagement, NineCraft for math games...
+
+
+
+
+
+
+
+
+
