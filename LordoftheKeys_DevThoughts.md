@@ -22,13 +22,25 @@ I wanted very much to land the plane with a one-shot prompt, and probably could 
 
 ### Screenshots
 
+#### Each level opens with a typing challenge that unlocks more of the keyboard each level
+<p align="center">
+<img width="1270" height="674" alt="LordoftheKeys_image1" src="https://github.com/user-attachments/assets/7630a263-3bf6-46a5-b9de-940d65707051" />
+</p>
 
+#### Simple straightforward platformer mechanics allowing direction movement and jumping
+<p align="center">
+<img width="1057" height="592" alt="LordoftheKeys_image2" src="https://github.com/user-attachments/assets/43559321-20bf-4f51-858e-87f8898d3203" />
+</p>
 
+#### Boss battles require speed and accuracy with typing to progress to the next level
+<p align="center">
+<img width="1115" height="734" alt="LordoftheKeys_image3" src="https://github.com/user-attachments/assets/53c1fa53-69e2-486b-b861-7e1e350b0a9e" />
+</p>
 
 ## 3. Gameplay Development
 - Although the HTML scaffolding was simple, I did struggle for the first few prompts finding a happy medium on direction to Flash 3.1 Pro...walked a line in the first few prompts between being too over-prescriptive on techniques I didn't know and too permissive.
-- Image use and generation - probably the area where I and the agents performed the worst. Gemini has some amazing image generation capabilities, but I absolutely could not get it to understand what I wanted it to do with the images it generated for gates, backgrounds, and enemies. Ultimately, I pivoted to an unexpected source - the Battle for Wesnoth. 
-- Wesnoth is an open-source 2D 4X game that I've played through and loved multiple times, and I was able to get the agents to borrow some of its character sprites for use in the game. I take no credit for those images, and if you haven't played the game yet I can't recommend it enough: https://www.wesnoth.org/
+- Image use and generation - probably the area where I and the agents performed the worst. Gemini has some amazing image generation capabilities, but I absolutely could not get it to understand what I wanted it to do with the images it generated for gates, backgrounds, and enemies. Ultimately, I pivoted to an unplanned source - the Battle for Wesnoth. 
+- Wesnoth is an open-source 2D 4X RPG that I've played through and loved multiple times. I was able to point the agents at their open repo to borrow some of its character sprites for use in the game. I take no credit for those images, and if you haven't played the game yet I can't recommend it enough: https://www.wesnoth.org/
 - Audio was also a challenge, since my time limit didn't provide a lot of room for me to research, source, and downscale open-source audio that would fit the capabilities of the game. However, the modulations on the original sounds that Gemini 3.1 Pro Low worked up aren't terrible.
 
 ## 4. Technical Learnings: Single-threaded AI Development
@@ -39,6 +51,8 @@ I wanted very much to land the plane with a one-shot prompt, and probably could 
 
 ## 6. What's Next for Lord of the Keys
 - Naturally, an expanded universe. Star Chores for daily engagement, NineCraft for math games...
+
+
 
 
 
