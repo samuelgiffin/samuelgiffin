@@ -67,10 +67,7 @@ flowchart TD
 ### 2. Epistemic Calibration vs. Token Confidence
 Autoregressive LLMs are trained to maximize token likelihood, not output calibrated probabilities over task categories.
 - When an LLM outputs `{ "ambiguity_level": "low" }`, it asserts a single discrete token. It hides the underlying entropy: was the model 99% confident, or was it a 51/49 coin toss between "low" and "medium"? While token logprobs can be extracted, they reflect token prediction confidence, not calibrated real-world uncertainty.
-- In contrast, **TypeSafe Jev** maps the state directly onto the probability simplex:
-  $$\Delta^{k-1} = \left\{ (p_1, \dots, p_k) \in \mathbb{R}^k \;\middle|\; \sum_{i=1}^k p_i = 1, \; p_i \ge 0 \right\}$$
-  It yields an exact probability distribution across categories, enabling downstream algorithmic systems to measure **Shannon Entropy**:
-  $$H(C) = -\sum_{i=1}^k P(c_i) \log_2 P(c_i)$$
+- In contrast, **TypeSafe Jev** maps the state directly onto the probability simplex. It yields an exact probability distribution across categories, enabling downstream algorithmic systems to measure **Shannon Entropy**.
 
 ---
 
