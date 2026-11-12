@@ -45,7 +45,7 @@ And no, I'm not posting the code...yet.
 ### [Project Heimdall]
 * **The Experiment:** Inspired by problems-worth-solving in my professional life (construction), I built a very vibe-coded construction scheduling application designed to create a schedule from a construction estimate built with standard commercially-available unit price books. I built this primarily to test my one-shot prompting capabilities and gaps.
 * **Built In:** Angular + Vite, with Tailwind and other frameworks (different apps) using Google AI Studio
-* **The Collaboration Manifest:** *Low human guidance / High AI autonomy.* I described a problem worth solving, the jobs to be done by the user, and some key features...then let the vibes run.
+* **The Collaboration Manifest:** *Low human guidance / High AI autonomy.* I described a problem worth solving, the jobs to be done by the user, and some key features...then let the vibes run. In full transparency, this didn't work well at all. The UI and UX decisions should NOT have been left up to the AI workflow I chose. 
 
 ### [The Jev Sandbox: System 1 Primitives vs. Frontier LLMs](./JevSandbox.md)
 * **The Experiment:** Pitting TypeSafe's "System 1" decision model (Jev) directly against frontier reasoning models (Google Gemini 2.5/3.8 Flash & Pro) on construction scope triage and risk scoring. Explored whether sub-200ms typed probabilistic primitives (`choice`, `score`, `noul`) can replace expensive multi-second autoregressive generation for operational classification.
