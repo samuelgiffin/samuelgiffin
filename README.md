@@ -53,7 +53,7 @@ And no, I'm not posting the code...yet.
 * **The Collaboration Manifest:** *Model-first exploration / Empirical benchmark triage.* Formulated evaluation schemas, structured parallel comparative benchmarks, and captured side-by-side human-in-the-loop audit logs to identify the optimal hybrid ("Fast Gate, Slow Deliberator") production architecture.
 * [Read the project notes and what I learned →](./JevSandbox.md)
 
-### [Project YAR (You Aren't Ready_: The Adversarial Epic Gatekeeper](./Yar.md)
+### [Project YAR (You Aren't Ready): The Adversarial Epic Gatekeeper](./Yar.md)
 * **The Experiment:** Building an unforgiving, anti-sycophantic AI gatekeeper that prevents "hallucinated consensus" in product discovery. Rather than politely helping product managers draft specs for weak ideas, YAR assumes every proposed epic is dead on arrival until proven otherwise across the 5 Pirate Metrics (Acquisition, Activation, Retention, Referral, Revenue). Pro tip: If you still haven't figured out why the acronym "YAR" was chosen, try saying it out loud a few times in a Pirates-of-the-Caribbean voice alongside "AARRR". You'll get it. 
 * **Built In:** Python 3 (zero external dependencies), Vanilla HTML/CSS/JavaScript, WebSockets/SSE, Playwright.
 * **The Collaboration Manifest:** *Adversarial cross-examination / Negative feedback loops.* Replaced conventional "co-pilot" brainstorming with a strict 2-strike falsification protocol, mandatory problem quantification (FIDV), and an explicit ban on AI ghostwriting to force PMs to defend their own core assumptions.
