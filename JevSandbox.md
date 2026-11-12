@@ -105,8 +105,10 @@ To empirically test these hypotheses, I built the **Model Comparison Studio**—
 The test harness accepts arbitrary scope statements and compiles dynamic question schemas concurrently for both TypeSafe Jev (as native `systemOne` primitives) and Google Gemini (as strict `@google/genai` JSON Schemas with accompanying `_reasoning` fields). Calls are dispatched in parallel via `Promise.allSettled` to record raw outputs, token footprints, and millisecond latencies.
 
 <p align="center">
-  <img width="1440" height="980" alt="Jev vs Gemini Model Comparison Studio Arena" src="./docs/images/jev-gemini-arena.png" />
+<img width="1440" height="980" alt="jev-gemini-arena" src="https://github.com/user-attachments/assets/10eecbbf-592d-4848-9ea7-ac43e8e7c030" />
 </p>
+
+
 
 ### The Benchmark Scenario: Scope Triage
 In the test run captured above, both models were fed an identical, realistic construction specification clause:
