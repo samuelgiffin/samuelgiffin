@@ -36,10 +36,22 @@ And no, I'm not posting the code...yet.
 * **The Collaboration Manifest:** *Pair programming.* I used local execution and treated the AI agent as a specialized technical soundboard with a time limit of 8 hours, mapping out requirements and rapidly prototyping mechanics together in real-time.
 * [Read the project notes and what I learned →](./Lord-of-the-Keys.md)
 
-### [Project Asgard]
-* **The Experiment:** Inspired by problems-worth-solving in my professional life (construction), I built a series of vibe-coded point solutions to test my one-shot prompting capabilities and gaps.
+### [Project Baldur](./ProjectBaldur.md)
+* **The Experiment:** Transitioning from rapid vibe-coded point solutions to an enterprise-grade drawing intelligence and RFI generation platform for AEC (Architecture, Engineering, Construction). Explored whether complex multi-sheet canvas coordinate linking (Smart Portals) and zero-backend client-side PDF/PNG packet generation could be systematically built across a 28-sprint plan without architectural drift.
+* **Built In:** Angular 21, Konva.js / Canvas, Python FastAPI, Hexagonal Architecture, SQLite / MongoDB, Playwright
+* **The Collaboration Manifest:** *Spec-driven architecture / Multi-sprint agentic execution.* High upfront human guidance during PM spec drafting and architectural boundary definition; autonomous multi-sprint TDD execution using Superpowers skills with Playwright automated visual regression and screenshot generation.
+* [Read the project notes and what I learned →](./ProjectBaldur.md)
+
+### [Project Heimdall]
+* **The Experiment:** Inspired by problems-worth-solving in my professional life (construction), I built a very vibe-coded construction scheduling application designed to create a schedule from a construction estimate built with standard commercially-available unit price books. I built this primarily to test my one-shot prompting capabilities and gaps.
 * **Built In:** Angular + Vite, with Tailwind and other frameworks (different apps) using Google AI Studio
 * **The Collaboration Manifest:** *Low human guidance / High AI autonomy.* I described a problem worth solving, the jobs to be done by the user, and some key features...then let the vibes run.
+
+### [The Jev Sandbox: System 1 Primitives vs. Frontier LLMs](./JevSandbox.md)
+* **The Experiment:** Pitting TypeSafe's "System 1" decision model (Jev) directly against frontier reasoning models (Google Gemini 2.5/3.8 Flash & Pro) on construction scope triage and risk scoring. Explored whether sub-200ms typed probabilistic primitives (`choice`, `score`, `noul`) can replace expensive multi-second autoregressive generation for operational classification.
+* **Built In:** TypeScript, TypeSafe SDK, Google GenAI SDK, Express, Vite, Playwright
+* **The Collaboration Manifest:** *Model-first exploration / Empirical benchmark triage.* Formulated evaluation schemas, structured parallel comparative benchmarks, and captured side-by-side human-in-the-loop audit logs to identify the optimal hybrid ("Fast Gate, Slow Deliberator") production architecture.
+* [Read the project notes and what I learned →](./JevSandbox.md)
 
 
 ### [Custom Agentic Skills & Tooling]
