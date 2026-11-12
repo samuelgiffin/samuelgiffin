@@ -14,7 +14,7 @@ For me, these projects are less about writing code and more about learning; they
 
 * **AI Orchestration:** Trying different stacks and levels of AI-driven workflows
 * **New Skills:** Getting deep into new languages and tools like Python, React/Vite, building native vs. PWAs, and running my own CI/CD pipelines.
-* **AI Concepts:** Model Context Protocol (MCP), custom agent tools/skills, multi-agent orchestration, and local execution capabilities.
+* **AI Concepts:** Model Context Protocol (MCP), System1 models for classification work, custom agent tools/skills, multi-agent orchestration, and local execution capabilities.
 * **Workflows:** Testing different models of architecture, scaffolding, vibe-coding, etc to learn different workflows. 
 
 ---
