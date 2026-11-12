@@ -6,9 +6,9 @@ It outlines the product thinking, structural decisions, and technical learnings 
 ---
 
 ## 1. Context & Objective: The AEC Documentation Problem
-In commercial construction, multi-page blueprint packages are the single source of truth—yet they are fundamentally fragmented. A typical commercial drawing package spans hundreds of dense, 24×36 or 30×42 sheets across multiple disciplines (Architectural, Structural, Mechanical, Electrical, Plumbing).
+In commercial construction, multi-page drawing packages are the single source of truth—yet they are fundamentally fragmented. A typical commercial drawing package spans dozens to hundreds of dense, 24×36 or 30×42 sheets across multiple disciplines (Architectural, Structural, Mechanical, Electrical, Plumbing).
 
-When an MEP coordinator or field superintendent spots a conflict—such as a 16-inch supply air duct colliding with a structural W14×90 steel girder—resolving it requires piecing together disconnected clues scattered across the drawing set:
+When an estimator or engineer spots a conflict—such as a 16-inch supply air duct colliding with a structural W14×90 steel girder—resolving it requires piecing together disconnected clues scattered across the drawing set:
 1. The **Floor Plan** (`M-201`) shows the horizontal duct run.
 2. The **Structural Framing Plan** (`S-201`) shows the beam location and column grid.
 3. The **Section Detail** (`S-501`) shows beam depth and bottom-of-steel elevations.
@@ -81,7 +81,7 @@ The centralized landing interface for ingesting, indexing, and organizing multi-
 - Quick search, sheet filtering, and one-click workspace launching.
 
 <p align="center">
-  <img width="1440" height="980" alt="Project Baldur Document Hub" src="./docs/images/baldur-document-hub.png" />
+<img width="1440" height="980" alt="baldur-document-hub" src="https://github.com/user-attachments/assets/00a8fbcb-2a7a-4df5-9d44-45292bb81a30" />
 </p>
 
 ---
@@ -94,7 +94,7 @@ The primary canvas interface where users navigate drawing sheets and establish r
 - **Component Inspector**: Real-time property inspection, custom notes, discipline tagging, and schedule-to-grid extraction.
 
 <p align="center">
-  <img width="1440" height="980" alt="Project Baldur Interactive Drawing Workspace and Smart Portals" src="./docs/images/baldur-drawing-workspace.png" />
+<img width="1440" height="980" alt="baldur-rfi-context-packet" src="https://github.com/user-attachments/assets/af0a012d-e4c0-4168-8271-4ed0b69c2612" />
 </p>
 
 ---
@@ -110,8 +110,9 @@ A dedicated compilation engine that transforms detected constructability discrep
   - ⬇️ **High-Res PNG**: High-fidelity graphic export for project records.
 
 <p align="center">
-  <img width="1440" height="980" alt="Project Baldur RFI Context Packet Generator" src="./docs/images/baldur-rfi-context-packet.png" />
+<img width="1440" height="980" alt="baldur-rfi-context-packet" src="https://github.com/user-attachments/assets/f3ecf421-fb40-46e2-859b-e32ee0b17d76" />
 </p>
+
 
 ---
 
