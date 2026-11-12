@@ -94,7 +94,7 @@ The primary canvas interface where users navigate drawing sheets and establish r
 - **Component Inspector**: Real-time property inspection, custom notes, discipline tagging, and schedule-to-grid extraction.
 
 <p align="center">
-<img width="1440" height="980" alt="baldur-rfi-context-packet" src="https://github.com/user-attachments/assets/af0a012d-e4c0-4168-8271-4ed0b69c2612" />
+<img width="1440" height="980" alt="baldur-drawing-workspace" src="https://github.com/user-attachments/assets/8247a0e7-1ab0-44c7-bd3f-f63a35f175d1" />
 </p>
 
 ---
